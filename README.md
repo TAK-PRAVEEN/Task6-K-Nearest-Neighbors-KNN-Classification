@@ -9,8 +9,8 @@ The core idea behind KNN is to predict the label of a new data point based on th
 2. Calculate Distance: When a new, unlabeled data point is introduced, the algorithm calculates the distance between this new point and every single point in the training dataset.
 3. Find Neighbors: It then identifies the 'K' points from the training data that are closest (i.e., have the smallest distances) to the new point.
 4. Vote or Average:
-  + For Classification: The new data point is assigned to the class that is most common among its K nearest neighbors (majority vote).
-  + For Regression: The value for the new data point is predicted as the average of the values of its K nearest neighbors.
+    + For Classification: The new data point is assigned to the class that is most common among its K nearest neighbors (majority vote).
+    + For Regression: The value for the new data point is predicted as the average of the values of its K nearest neighbors.
 
 For example, to determine if a new fruit is an apple or an orange, you'd look at its 'K' closest neighbors in a feature space (e.g., based on color and size). If most of its neighbors are apples, you'd classify the new fruit as an apple.
 
